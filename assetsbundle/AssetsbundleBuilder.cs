@@ -85,9 +85,7 @@ public class Builder : Editor
 			Debug.Log ("dep: " + dep);
 
 			AssetImporter assetImporterDep = AssetImporter.GetAtPath (dep);
-			assetImporterDep.assetBundleName = guid;
-
-
+			assetImporterDep.assetBundleName = dep;
 		}
 	}
 
